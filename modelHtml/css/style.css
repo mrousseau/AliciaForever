@@ -2,3 +2,18 @@ body
 {
 	background-color : #000000; 
 }
+header
+{
+	background-color : #262626;
+	height : 100px;
+	color : white;
+}
+header img
+{
+	margin : 5px 0px 0px 15px;
+}
+header button
+{
+	margin : 30px 30px 0px ;
+}
+
