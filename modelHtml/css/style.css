@@ -36,3 +36,15 @@ header button
 	color :  #000000;
 	background-color : #ffffff;
 }
+.presentation
+{
+	height : 500px; 
+	background-color : #66ff66;
+
+	
+}
+.presentation p 
+{
+	color : #ffffff;
+	font-size : 15px;
+}
