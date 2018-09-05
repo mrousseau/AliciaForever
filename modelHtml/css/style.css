@@ -38,13 +38,33 @@ header button
 }
 .presentation
 {
-	height : 500px; 
-	background-color : #66ff66;
-
-	
+	height : 700px; 
+	background-color : #262626;
 }
 .presentation p 
 {
 	color : #ffffff;
-	font-size : 15px;
+	font-size : 21px;
 }
+
+.produit
+{
+	height: 850px;
+	padding : 50px 0 50px 0;
+	background-color : #088A08;
+	
+}
+
+.tuile 
+{
+	height : 250px;
+}
+
+.tuile img 
+{
+	width : 100%;
+	height : auto;
+	
+}
+
+	
