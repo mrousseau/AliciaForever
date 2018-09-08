@@ -2,16 +2,19 @@ body
 {
 	background-color : #000000; 
 }
+
 header
 {
 	background-color : #262626;
 	height : 100px;
 	color : white;
 }
+
 header img
 {
 	margin : 15px 0px 0px 50px;
 }
+
 header button
 {
 	margin : 30px 30px 0px ;
@@ -19,11 +22,19 @@ header button
 	font-size : 15px;
 
 }
+
+section h1
+{
+	font-size : 50px; 
+	color : #ffffff; 
+}
+
 .menuP
 {
 	background-color : #0d0d0d;
 	height : 50px;
 }
+
 .menuP a 
 {
 	color :  #ffffff;
@@ -31,16 +42,20 @@ header button
 	font-size : 15px;
 	padding : 15px 0px 0px 0px;
 }
+
 .menuP a:hover
 {
 	color :  #000000;
 	background-color : #ffffff;
 }
+
 .presentation
 {
-	height : 700px; 
+	padding-top : 50px;
+	height : 800px; 
 	background-color : #262626;
 }
+
 .presentation p 
 {
 	color : #ffffff;
@@ -49,10 +64,15 @@ header button
 
 .produit
 {
-	height: 850px;
+	height: 950px;
 	padding : 50px 0 50px 0;
 	background-color : #088A08;
 	
+}
+
+.produit h1 
+{
+	margin-bottom : 50px;
 }
 
 .tuile 
@@ -67,4 +87,25 @@ header button
 	
 }
 
-	
+.meContacter
+{
+	padding-top : 50px;
+	background-color : #22486c;
+}
+
+.meContacter label
+{
+	color : #ffffff;
+	font-size : 30px;
+}
+
+.actionfrom
+{
+	padding-top : 25px;
+	padding-bottom : 50px;
+}
+
+ .btn
+ {
+	 font-size : 20px;
+ }

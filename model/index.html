@@ -23,7 +23,7 @@
 		  <a class="nav-item nav-link" href="#">Qui suis-je ?</a>
 		  <a class="nav-item nav-link" href="#">Ma boutique</a>
 		  <a class="nav-item nav-link" href="#">Me contacter</a>
-		  <a class="nav-item nav-link" href="#">Recrutement</a>
+		  <a class="nav-item nav-link" href="#">Me rejoindre</a>
 		</nav>
 		
 		<section> 
@@ -34,6 +34,7 @@
 			</div>
 		</section>
 		<section class="presentation">
+				<h1 align ="center">Qui suis je ?</h1>
 				<div class="container-fluid">
 					<div class="row" style="padding : 75px 0 0 0">
 						<div class="offset-lg-1  col-lg-2" style="padding : 10px 0 0 0;">
@@ -49,6 +50,7 @@
 		</section>
 	
 		<section class="produit">
+			<h1 align ="center">Ma boutique</h1>
 			<div class="row">
 				<div class="offset-lg-1 col-lg-3 tuile">
 					<img src="img/mf.jpg" alt="image test">
@@ -74,22 +76,34 @@
 			</div>
 		</section>
 	
-		<section>
-			<div class="col-lg-12">
+		<section class="meContacter" >
+			<h1 align ="center">Me contacter</h1>
+			<div class="row offset-lg-2 col-lg-8">
 				<form class="col-lg-12" action="#" method="post" enctype="application/x-www-form-urlencoded">
-				<label class=" row titre">Sujet&nbsp;:</label>
-				<input class="row titre" name="titre" size="40" value="" type="text">
-				<label style="display: block;" class="nom">Votre Nom&nbsp;:</label>
-				<input class="row nom" name="nomPrenom" value="Nom Prénom" size="40" value="" type="text">
-				<label class="row mail">Votre e-mail&nbsp;: (</label>
-				<input class="row mail" name="mail" size="100" value="" type="text">
-				<label class="row message">Votre message&nbsp;: (</label>
-				<input class="row from" name="from" size="60" value="...." type="text">
-				<input class="spip_bouton form_envoyer" value="Envoyer" type="submit">
-				<input value="Effacer" class="spip_bouton form_effacer" type="reset">
+				<label class="col-lg-12 titre">Sujet&nbsp;:</label>
+				<input class="col-lg-12 titre" name="titre" size="40" value="Sujet" type="text">
+				<label class="col-lg-12 nom" style="display: block;">Votre Nom&nbsp;:</label>
+				<input class="col-lg-12 nom" name="nomPrenom" value="Nom Prénom" size="40" value="" type="text">
+				<label class="col-lg-12 mail">Votre e-mail&nbsp;: </label>
+				<input class="col-lg-12 mail" name="mail" size="100" value="@" type="text">
+				<label class="col-lg-12 message">Votre message&nbsp;: </label>
+				<textarea class="col-lg-12 from"  rows="8" type="text">Votre message ...</textarea>
+				<div class="row actionfrom">
+					<input class="spip_bouton form_envoyer btn btn-success offset-lg-1 col-lg-2" value="Envoyer" type="submit">
+					<input class="spip_bouton form_effacer btn btn-danger offset-lg-6 col-lg-2" value="Effacer" type="reset">
+				</div>
 				</form>
 			</div>
 		</section>
+		
+		
+		<section class="meRejoindre" >
+			<h1 align ="center">Me rejoindre</h1>
+			<div class="row  offset-lg-2 col-lg-8">
+				
+			</div>
+		</section>
+		
 	
 	
 		<footer class="row">
