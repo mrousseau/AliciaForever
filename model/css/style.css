@@ -31,10 +31,22 @@ html body
 
 .height100
 {
-	height : 100px;
+	height : 200px;
 }
 
 .tuile_boutique
 {
 	padding : 15px;
+	transition: all .4s ease-in-out;
+}
+
+.tuile_boutique:hover 
+{ 
+	transform: scale(1.1); 
+}
+
+.padding-top-bottom-60
+{
+	padding-top    : 60px;
+	padding-bottom : 60px;
 }
