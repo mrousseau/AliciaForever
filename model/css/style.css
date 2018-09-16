@@ -1,119 +1,40 @@
-body
+html body
 {
-	background-color : #000000; 
+	background-color : #6441a5; 
 }
 
-header
+#carouselExampleControls
 {
-	background-color : #262626;
-	height : 100px;
-	color : white;
+	height : 400px;
 }
 
-header img
+.autoSize
 {
-	margin : 15px 0px 0px 50px;
+	height : auto; 
 }
 
-header button
+.x50
 {
-	margin : 30px 30px 0px ;
-	height : 40px;
-	font-size : 15px;
-
-}
-
-section h1
-{
-	font-size : 50px; 
-	color : #ffffff; 
-}
-
-.menuP
-{
-	background-color : #0d0d0d;
 	height : 50px;
+	width  : 50px;
 }
 
-.menuP a 
+.bg-purple-light
 {
-	color :  #ffffff;
-	border-radius : 0;
-	font-size : 15px;
-	padding : 15px 0px 0px 0px;
+	background-color : #b9a3e3;
 }
 
-.menuP a:hover
+.bg-gray-light
 {
-	color :  #000000;
-	background-color : #ffffff;
+	background-color : #f1f1f1;
 }
 
-.presentation
+.height100
 {
-	padding-top : 50px;
-	height : 800px; 
-	background-color : #262626;
+	height : 100px;
 }
 
-.presentation p 
+.tuile_boutique
 {
-	color : #ffffff;
-	font-size : 21px;
+	padding : 15px;
 }
-
-.produit
-{
-	height: 950px;
-	padding : 50px 0 50px 0;
-	background-color : #088A08;
-	
-}
-
-.produit h1 
-{
-	margin-bottom : 50px;
-}
-
-.tuile 
-{
-	height : 250px;
-	transition: all .4s ease-in-out;
-}
-
-.tuile:hover 
-{ 
-	transform: scale(1.1); 
-}
-
-.tuile img 
-{
-	width : 100%;
-	height : auto;
-	
-}
-
-
-
-.meContacter
-{
-	padding-top : 50px;
-	background-color : #22486c;
-}
-
-.meContacter label
-{
-	color : #ffffff;
-	font-size : 30px;
-}
-
-.actionfrom
-{
-	padding-top : 25px;
-	padding-bottom : 50px;
-}
-
- .btn
- {
-	 font-size : 20px;
- }
