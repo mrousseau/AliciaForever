@@ -154,6 +154,11 @@ float: none;
 	font-size: 7px;
 }
 
+.h_100
+{
+	height : 100px;
+}
+
 
 #myBtn {
     display: none; /* Hidden by default */
