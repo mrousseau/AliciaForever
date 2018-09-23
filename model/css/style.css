@@ -84,6 +84,12 @@ float: none;
 	padding-bottom : 30px;
 }
 
+.padding-left_right-15
+{
+	padding-left : 15px;
+	padding-right: 15px;
+}
+
 .height_70
 {
 	height : 70%;
@@ -138,4 +144,9 @@ float: none;
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.margin_bottom_25
+{
+	margin-bottom: 25px;
 }
