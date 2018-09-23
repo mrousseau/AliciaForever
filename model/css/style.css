@@ -57,6 +57,11 @@ float: none;
 	background-color: white;
 }
 
+.bg-dark-grey
+{
+	background-color : #262626;
+}
+
 .bg-gray-light
 {
 	background-color : #f1f1f1;
@@ -82,6 +87,12 @@ float: none;
 {
 	padding-top    : 30px;
 	padding-bottom : 30px;
+}
+
+.padding-top-bottom-10
+{
+	padding-top    : 10px;
+	padding-bottom : 10px;
 }
 
 .padding-left_right-15
@@ -125,6 +136,24 @@ float: none;
 {
 	padding : 30px;
 }
+
+.a-center
+{
+	text-align : center;
+}
+
+.white_18px
+{
+	color : white;
+	font-size: 18px;
+}
+
+.white_7px
+{
+	color : white;
+	font-size: 7px;
+}
+
 
 #myBtn {
     display: none; /* Hidden by default */
