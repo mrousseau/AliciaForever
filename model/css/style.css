@@ -75,7 +75,7 @@ float: none;
 .tuile_boutique
 {
 	padding : 15px;
-	transition: all .4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
 .tuile_boutique:hover 
@@ -184,3 +184,9 @@ float: none;
 {
 	margin-bottom: 25px;
 }
+
+.test h1
+{
+	line-height :1px;
+}
+
