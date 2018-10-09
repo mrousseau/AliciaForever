@@ -255,14 +255,18 @@ float: none;
 
 .infobulle:hover::after,
 .infobulle:focus::after {
-	height : 100px;
-	background-color : red ; 
+	height : auto;
+	width : 250px;
+	background-color : white;
+	color : black;	
+	font-size : 10px;
 	border-style : dashed;
 	border-radius : 10px;
 	border-color : white;
     border-width : 2px;	
-	margin-left : 200px;
-	margin-top : -60px;
+	margin-left : 170px;
+	margin-top : -20px;
+	padding : 25px;
 	opacity : 0.7;
 	content : attr(aria-label);  /* on affiche aria-label */
 	position : absolute;
