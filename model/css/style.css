@@ -317,6 +317,46 @@ float: none;
 
 
 
+.rating 
+{
+   direction: rtl;
+}
+.rating a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a 
+{
+   color: orange;
+   cursor: pointer;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span 
+{
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color:gold;
+   top:0;
+   left:0;
+}
+
+
+
 
 
 
