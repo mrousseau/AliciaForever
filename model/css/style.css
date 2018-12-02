@@ -135,6 +135,7 @@ float: none;
 	margin-top	 : 25px;
 	padding-left : 25px;
 	font-size : 17px;
+	opacity : 0.8;
 }
 
 .margin_top_0
@@ -277,10 +278,40 @@ float: none;
 	white-space : nowrap;  /* on interdit le retour à la ligne */
 }
 
+.background-BE
+{
+	background-image:url(img/be.jpg);
+	background-size : 100%;
+	background-position:100% 100%;
+}
 
+.background-BT
+{
+	background-image:url(img/beaute.jpg);
+	background-size : 100%;
+	background-position:100% 100%;
+}
 
+.background-NA
+{
+	background-image:url(img/huile.jpg);
+	background-size : 130%;
+	background-position:100% 100%;
+}
 
+.background-DO
+{
+	background-image:url(img/house.jpg);
+	background-size : 130%;
+	background-position:100% 100%;
+}
 
+.background-ANI
+{
+	background-image:url(img/animo.jpg);
+	background-size : 130%;
+	background-position:100% 100%;
+}
 
 
 
