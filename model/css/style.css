@@ -368,7 +368,7 @@ form {
   padding: 5px 10px 0 0;
   width: 140px;
 }*/
-input[type=text] {
+.inputNum {
   float: left;
   width: 40px;
   font: bold 20px Helvetica, sans-serif;

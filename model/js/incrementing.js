@@ -1,6 +1,6 @@
 $(function() {
 
-  $(".numbers-row").append('<div class="inc button buttonp">+</div><input type="text" name="french-hens" id="french-hens" value="0"><div class="dec button buttonn">-</div>');
+  $(".numbers-row").append('<div class="inc button buttonp">+</div><input type="text" name="french-hens" id="french-hens" value="0" class="inputNum"><div class="dec button buttonn">-</div>');
 
   $(".button").on("click", function() {
 
